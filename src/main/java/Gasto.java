@@ -1,23 +1,23 @@
 public class Gasto {
     String nombreGasto;
-    int valor;
-    Boolean pagado;S
+    int Valor;
+    Boolean pagado;
     public Gasto() {
 
     }
 
     public Gasto(String nombreGasto, int valor, boolean pagado) {
-        valor = valor;
+        Valor = valor;
         nombreGasto=nombreGasto;
         pagado=pagado;
     }
 
     public int getValor() {
-        return valor;
+        return Valor;
     }
 
     public void setValor(int valor) {
-        this.valor = valor;
+        this.Valor = valor;
     }
 
     public void setNombreGasto(String nombreGasto) {
